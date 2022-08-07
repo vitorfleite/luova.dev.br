@@ -10,7 +10,7 @@ import Footer from "../components/footer/Footer";
 import useDocumentTitle from "../components/useDocumentTitle";
 
 const LuovaDevBr = () => {
-  useDocumentTitle("Luova");
+  useDocumentTitle("Luova Brasil");
   document.body.classList.add("theme-light");
   return (
     <div className="main-left">

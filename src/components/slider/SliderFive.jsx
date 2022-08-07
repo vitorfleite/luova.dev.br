@@ -1,12 +1,12 @@
 import React from "react";
 
 const sliderContent = {
-  name: "Mark Saverin",
+  name: "Luova",
   description: `I design and develop services for customers of all sizes,
   specializing in creating stylish, modern websites, web
   services and online stores.`,
-  btnText: "HIRE ME",
-  btnText2: "My Work",
+  btnText: "ENTRAR EM CONTATO",
+  btnText2: "Meu portfólio",
 };
 
 const SliderFive = () => {
@@ -21,11 +21,11 @@ const SliderFive = () => {
           <div className="row full-screen align-items-center">
             <div className="col-md-6 order-2 order-md-1">
               <div className="type-box">
-                <h6>Hello there...</h6>
+                <h6>Olá...</h6>
                 <h1 className="font-alt">{sliderContent.name}</h1>
-                  <p className="loop-text lead"> Content Writter</p>
-                  <p className="loop-text lead">Businessman</p>
-                  <p className="loop-text lead">Photographer</p>
+                  <p className="loop-text lead"> Desenvolvendo</p>
+                  <p className="loop-text lead">Engenheirando</p>
+                  <p className="loop-text lead">Criando</p>
                   {" "}
                 <p className="desc">{sliderContent.description}</p>
                 <div className="d-flex btn-wrapper">
@@ -40,7 +40,7 @@ const SliderFive = () => {
             </div>
             {/* End .col */}
             <div className="col-md-6 order-1 order-md-2">
-              <img src="img/slider/home-professional-2.png" alt="about image" />
+              <img src="img/slider/home-professional-2.png" alt="" />
             </div>
           </div>
         </div>

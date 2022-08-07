@@ -25,8 +25,8 @@ const AboutThree = () => {
                 </div>
                 {/* End img */}
                 <div className="info">
-                  <p>Ux/Ui Designer</p>
-                  <h3>John Smith</h3>
+                  <p>Developer Júnior</p>
+                  <h3>Vítor Figueirêdo Leite</h3>
                 </div>
                 {/* End info */}
               </div>
@@ -42,7 +42,7 @@ const AboutThree = () => {
             >
               <div className="about-info">
                 <div className="title">
-                  <h3>Biography</h3>
+                  <h3>Um pouco de mim</h3>
                 </div>
                 <div className="about-text">
                   <p>

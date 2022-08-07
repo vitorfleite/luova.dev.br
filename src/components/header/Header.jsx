@@ -40,7 +40,7 @@ const Header = () => {
 
           <Scrollspy
             className="nav nav-menu"
-            items={["home", "about", "resume", "work", "blog", "contactus"]}
+            items={["home", "about", "resume", "work", "contactus"]}
             currentClassName="active"
             offset={-30}
           >
@@ -68,7 +68,7 @@ const Header = () => {
               >
                 <FiUser />
                 <ReactTooltip id="ABOUT" place="top" type="dark" effect="float">
-                  <span>About</span>
+                  <span>Sobre</span>
                 </ReactTooltip>
               </a>
             </li>
@@ -87,7 +87,7 @@ const Header = () => {
                   type="dark"
                   effect="float"
                 >
-                  <span>Resume</span>
+                  <span>Currículo</span>
                 </ReactTooltip>
               </a>
             </li>
@@ -101,24 +101,11 @@ const Header = () => {
               >
                 <FiBriefcase />
                 <ReactTooltip id="WORK" place="top" type="dark" effect="float">
-                  <span>Work</span>
+                  <span>Portfólio</span>
                 </ReactTooltip>
               </a>
             </li>
-            <li>
-              <a
-                className="nav-link"
-                href="#blog"
-                data-tip
-                data-for="BLOG"
-                onClick={handleClick}
-              >
-                <FaBlog />
-                <ReactTooltip id="BLOG" place="top" type="dark" effect="float">
-                  <span>Blog</span>
-                </ReactTooltip>
-              </a>
-            </li>
+          
             <li>
               <a
                 className="nav-link"
@@ -134,7 +121,7 @@ const Header = () => {
                   type="dark"
                   effect="float"
                 >
-                  <span>Contact</span>
+                  <span>Contato</span>
                 </ReactTooltip>
               </a>
             </li>

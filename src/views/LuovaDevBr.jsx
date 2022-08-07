@@ -4,7 +4,6 @@ import Slider from "../components/slider/SliderFive";
 import About from "../components/about/AboutThree";
 import Resume from "../components/resume/Resume";
 import Portfolio from "../components/portfolio/Portfolio";
-import Blog from "../components/blog/Blog";
 import Contact from "../components/contact/Contact";
 import ContactInfo from "../components/contact/ContactInfo";
 import Footer from "../components/footer/Footer";
@@ -30,22 +29,13 @@ const LuovaDevBr = () => {
       <section id="work" className="section theme-light dark-bg">
         <div className="container">
           <div className="title">
-            <h3>My Portfolio.</h3>
+            <h3>Meu Portfolio.</h3>
           </div>
           <Portfolio />
         </div>
       </section>
       {/* End Portfolio Section */}
 
-      <section id="blog" className="section">
-        <div className="container">
-          <div className="title">
-            <h3>Mais recentes.</h3>
-          </div>
-          <Blog />
-        </div>
-      </section>
-      {/* End Portfolio Section */}
 
       <section id="contactus" className="section theme-light dark-bg">
         <div className="container">
@@ -57,7 +47,7 @@ const LuovaDevBr = () => {
 
             <div className="col-lg-7 ml-auto m-15px-tb  ">
               <div className="contact-form">
-                <h4>Say Something</h4>
+                <h4>Como podemos ajudar?</h4>
                 <Contact />
               </div>
             </div>

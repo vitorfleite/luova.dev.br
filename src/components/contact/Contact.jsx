@@ -22,11 +22,11 @@ const Contact = () => {
               <input
                 type="text"
                 className="form-control theme-light"
-                placeholder="Full name"
+                placeholder="Nome completo"
                 {...register("name", { required: true })}
               />
               {errors.name && errors.name.type === "required" && (
-                <span className="invalid-feedback">Name is required</span>
+                <span className="invalid-feedback">O nome é obrigatório</span>
               )}
             </div>
           </div>
@@ -37,11 +37,11 @@ const Contact = () => {
               <input
                 type="email"
                 className="form-control theme-light"
-                placeholder="Email address"
+                placeholder="Email"
                 {...register(
                   "email",
                   {
-                    required: "Email is Required",
+                    required: "Email é obrigatório",
                     pattern: {
                       value: /\S+@\S+\.\S+/,
                       message: "Entered value does not match email format",
@@ -62,11 +62,11 @@ const Contact = () => {
               <input
                 type="text"
                 className="form-control theme-light"
-                placeholder="Subject"
+                placeholder="Assunto"
                 {...register("subject", { required: true })}
               />
               {errors.subject && (
-                <span className="invalid-feedback">Subject is required.</span>
+                <span className="invalid-feedback">Assunto é obrigado.</span>
               )}
             </div>
           </div>
@@ -77,11 +77,11 @@ const Contact = () => {
               <textarea
                 rows="4"
                 className="form-control theme-light"
-                placeholder="Type comment"
+                placeholder="Escreva o comentário"
                 {...register("comment", { required: true })}
               ></textarea>
               {errors.comment && (
-                <span className="invalid-feedback">Comment is required.</span>
+                <span className="invalid-feedback">Comentário é obrigatório.</span>
               )}
             </div>
           </div>
@@ -89,7 +89,7 @@ const Contact = () => {
 
           <div className="col-12">
             <div className="btn-bar">
-              <button className="px-btn px-btn-white">Send Message</button>
+              <button className="px-btn px-btn-white">Enviar Mensagem</button>
             </div>
           </div>
           {/* End .col-12 */}

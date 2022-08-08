@@ -25,8 +25,8 @@ const AboutThree = () => {
                 </div>
                 {/* End img */}
                 <div className="info">
-                  <p>Developer Júnior</p>
-                  <h3>Vítor Figueirêdo Leite</h3>
+                  {/*<p></p> */}
+                  <h3>Luova</h3>
                 </div>
                 {/* End info */}
               </div>
@@ -42,22 +42,19 @@ const AboutThree = () => {
             >
               <div className="about-info">
                 <div className="title">
-                  <h3>Um pouco de mim</h3>
+                  <h3>Um pouco de nós</h3>
                 </div>
                 <div className="about-text">
                   <p>
-                    I'm a Freelancer Front-end Developer with over 3 years of
-                    experience. I'm from San Francisco. I code and create web
-                    elements for amazing people around the world. I like work
-                    with new people. New people new Experiences.
+                    A Luova tem como objetivo criar soluções inovadoras e 
+                    competitivas na área de engenharia e tecnologia da informação.
+                    Nós somos apaixonados em criar.  O amor pela tecnologia e a natureza nos oferece inspiração para ir adiante.
                   </p>
                   <p>
-                    I'm a Freelancer Front-end Developer with over 3 years of
-                    experience. I'm from San Francisco. I code and create web
-                    elements for amazing people around the world. I like work
-                    with new people. New people new Experiences.
+                    
                   </p>
                 </div>
+                {/*
                 <div className="info-list">
                   <div className="row">
                     <div className="col-sm-6">
@@ -102,10 +99,14 @@ const AboutThree = () => {
                     </div>
                   </div>
                 </div>
+                */}
               </div>
             </div>
-            {/* End col */}
+            
+            
           </div>
+          
+          
 
           {/* separated */}
           <div

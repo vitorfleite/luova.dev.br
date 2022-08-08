@@ -2,11 +2,9 @@ import React from "react";
 
 const sliderContent = {
   name: "Luova",
-  description: `I design and develop services for customers of all sizes,
-  specializing in creating stylish, modern websites, web
-  services and online stores.`,
+  description: `Desenvolvemos projetos que vão da nuvem até a palma da sua mão.`,
   btnText: "ENTRAR EM CONTATO",
-  btnText2: "Meu portfólio",
+  btnText2: "MEU PORTFÓLIO",
 };
 
 const SliderFive = () => {

@@ -48,7 +48,7 @@ const AboutThree = () => {
                   <p>
                     A Luova tem como objetivo criar soluções inovadoras e 
                     competitivas na área de engenharia e tecnologia da informação.
-                    Nós somos apaixonados em criar.  O amor pela tecnologia e a natureza nos oferece inspiração para ir adiante.
+                    Nós somos apaixonados em criar.  A tecnologia e a natureza nos oferece inspiração para seguir adiante.
                   </p>
                   <p>
                     

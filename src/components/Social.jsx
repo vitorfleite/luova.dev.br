@@ -4,7 +4,7 @@ import {
 } from "react-icons/fa";
 
 const SocialShare = [
-  { Social: <FaGithub />, link: "https://www.instagram.com/" },
+  { Social: <FaGithub />, link: "https://github.com/luovabr/" },
 ];
 
 const Social = () => {

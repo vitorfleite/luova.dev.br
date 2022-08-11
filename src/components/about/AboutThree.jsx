@@ -26,7 +26,7 @@ const AboutThree = () => {
                 {/* End img */}
                 <div className="info">
                   {/*<p></p> */}
-                  <h3>Luova</h3>
+                  <h3>Лuova</h3>
                 </div>
                 {/* End info */}
               </div>
@@ -48,7 +48,7 @@ const AboutThree = () => {
                   <p>
                     A Luova tem como objetivo criar soluções inovadoras e 
                     competitivas na área de engenharia e tecnologia da informação.
-                    Nós somos apaixonados em criar.  A tecnologia e a natureza nos oferece inspiração para seguir adiante.
+                    Nós somos apaixonados em criar.
                   </p>
                   <p>
                     
@@ -119,12 +119,12 @@ const AboutThree = () => {
           ></div>
           {/* End separated */}
           <div className="title">
-            <h3>What I do?</h3>
+            <h3>O que fazemos?</h3>
           </div>
           <Services />
           {/* End .row */}
-
-          {/* separated */}
+          {/*
+          
           <div
             className="separated"
             style={{
@@ -133,15 +133,13 @@ const AboutThree = () => {
               })`,
             }}
           ></div>
-          {/* End separated */}
-
+           
+          
           <div className="title">
             <h3>Awards.</h3>
           </div>
           <Awards />
-          {/* End Awards */}
-
-          {/* separated */}
+         
           <div
             className="separated"
             style={{
@@ -150,13 +148,14 @@ const AboutThree = () => {
               })`,
             }}
           ></div>
-          {/* End separated */}
+         
 
           <div className="title">
             <h3>Testimonials.</h3>
           </div>
           <Testimonials />
-          {/* End Testimonaial */}
+          
+        */}
         </div>
       </section>
     </>

@@ -1,7 +1,8 @@
 import React from "react";
+import { TextLoop } from "react-text-loop-next";
 
 const sliderContent = {
-  name: "Luova",
+  name: "Лuova",
   description: `Desenvolvemos projetos que vão da nuvem até a palma da sua mão.`,
   btnText: "ENTRAR EM CONTATO",
   btnText2: "MEU PORTFÓLIO",
@@ -21,10 +22,12 @@ const SliderFive = () => {
               <div className="type-box">
                 <h6>Olá...</h6>
                 <h1 className="font-alt">{sliderContent.name}</h1>
-                  <p className="loop-text lead"> Desenvolvendo</p>
-                  <p className="loop-text lead">Engenheirando</p>
+                <TextLoop interval={200}>
+                  <p className="loop-text lead">Desenvolvendo</p>
+                  <p className="loop-text lead">Evoluindo</p>
+                  <p className="loop-text lead">Progredindo</p>
                   <p className="loop-text lead">Criando</p>
-                  {" "}
+                </TextLoop> {" "}
                 <p className="desc">{sliderContent.description}</p>
                 <div className="d-flex btn-wrapper">
                   <a className="px-btn px-btn-theme mr-4" href="#work">

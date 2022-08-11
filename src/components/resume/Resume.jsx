@@ -42,19 +42,24 @@ const resumeContent = [
 
 const educatonContent = [
   {
-    passingYear: "2018-2020",
-    degreeTitle: "Ph.D in Horriblensess",
-    instituteName: "University Of Evil Doing",
+    passingYear: "2022-",
+    degreeTitle: "Programa de Estudos Secundários - Inteligência Artificial",
+    instituteName: "Universidade do Rio Grande do Norte (Brasil)",
   },
   {
-    passingYear: "2013-2016",
-    degreeTitle: "Bsc. in Computer Science",
-    instituteName: "World University",
+    passingYear: "2019-2022",
+    degreeTitle: "Mestrado em Mecatrônica e Robótica (interrompido)",
+    instituteName: "ITMO University (Rússia)",
   },
   {
-    passingYear: "2010-2012",
-    degreeTitle: "Graphic Artist Training ",
-    instituteName: "Graphic Master Institute",
+    passingYear: "2014-2015",
+    degreeTitle: "Bacharelado em Engenharia Automotiva",
+    instituteName: "University of Bradford (Inglaterra)",
+  },
+  {
+    passingYear: "2013-2018",
+    degreeTitle: "Bacharelado em Engenharia Mecânica",
+    instituteName: "Universidade do Rio Grande do Norte (Brasil)",
   },
 ];
 
@@ -63,10 +68,11 @@ const Resume = () => {
     <>
       <section id="resume" className="section">
         <div className="container">
+          {/* 
           <div className="title">
             <h3>Experience.</h3>
           </div>
-          {/* End title */}
+          
           <div className="resume-box">
             {resumeContent.map((val, i) => (
               <div className="resume-row" key={i}>
@@ -91,7 +97,7 @@ const Resume = () => {
             ))}
           </div>
 
-          {/* separated */}
+        
           <div
             className="separated"
             style={{
@@ -100,10 +106,10 @@ const Resume = () => {
               })`,
             }}
           ></div>
-          {/* End separated */}
+          */}
 
           <div className="title">
-            <h3>Education & Skills</h3>
+            <h3>Educação & Habilidades</h3>
           </div>
 
           <div className="row align-items-center">

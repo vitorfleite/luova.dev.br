@@ -3,23 +3,20 @@ import React from "react";
 const ServiceContent = [
   {
     icon: "icon-mobile",
-    title: "Web Design",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "Desenvolvimento de sites e aplicativos",
+    descriptions: `Desenvolvemos sites e aplicativos com ferramentas modernas e utilizando metodologias de desenvolvimento ágil `,
     delayAnimation: "",
   },
   {
     icon: "icon-desktop",
-    title: "Web Development",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "A definir",
+    descriptions: `Desenvolvemos sites de alto impacto, visando o menor custo de manutenção.`,
     delayAnimation: "200",
   },
   {
     icon: "icon-target",
-    title: "Seo Marketing",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "Automatização de Processos",
+    descriptions: `Realizamos a transformação digital de seus processos: obtendo dados de forma automática e execução de tarefas de forma autônomaSS.`,
     delayAnimation: "400",
   },
 ];

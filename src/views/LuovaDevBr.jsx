@@ -10,7 +10,7 @@ import Footer from "../components/footer/Footer";
 import useDocumentTitle from "../components/useDocumentTitle";
 
 const LuovaDevBr = () => {
-  useDocumentTitle("Luova Brasil");
+  useDocumentTitle("Лuova Brasil");
   document.body.classList.add("theme-light");
   return (
     <div className="main-left">
@@ -23,10 +23,10 @@ const LuovaDevBr = () => {
       <About />
       {/* End About Section */}
 
-      <Resume />
-      {/* End Resume Section */}
+      
+      {/* <Resume /> */}
 
-      <section id="work" className="section theme-light dark-bg">
+      <section id="work" className="section theme-light light-bg">
         <div className="container">
           <div className="title">
             <h3>Meu Portfolio.</h3>

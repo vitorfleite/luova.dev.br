@@ -12,209 +12,72 @@ const breakpointColumnsObj = {
   500: 1,
 };
 
-const tabList = ["All", "Branding", "Photography", "Fashion", "Product"];
+const tabList = ["Todos"];
 const tabListContent = [
   {
     porftoliItems: [
       {
         img: "m-portfolio-1",
-        title: "Bottle Illustration",
-        subTitle: "Figma Shoot",
-        alterText: "Bottle Illustration",
-        portfolioLink:
-          "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
+        title: "",
+        subTitle: "",
+        alterText: "",
+        portfolioLink: "",
       },
       {
         img: "m-portfolio-2",
-        title: "E-Learning App",
-        subTitle: "Nuna ios App",
-        alterText: "Illustration",
-        portfolioLink:
-          "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
+        title: "",
+        subTitle: "",
+        alterText: "",
+        portfolioLink: "#",
       },
       {
         img: "m-portfolio-3",
-        title: "Visual Design",
-        subTitle: "Themeforest Marke",
-        alterText: "Business Mockup",
-        portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
+        title: "",
+        subTitle: "",
+        alterText: "",
+        portfolioLink: "#",
       },
       {
         img: "m-portfolio-4",
-        title: "Business Card",
-        subTitle: "Graphicriver Market",
-        alterText: "E-Cosmetics",
-        portfolioLink:
-          "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+        title: "",
+        subTitle: "",
+        alterText: "",
+        portfolioLink: "#",
       },
       {
         img: "m-portfolio-5",
-        title: "Chatting Application",
-        subTitle: "Codecanyon Market",
-        alterText: "Bottle Illustration",
-        portfolioLink:
-          "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
+        title: "",
+        subTitle: "",
+        alterText: "",
+        portfolioLink: "#",
       },
       {
         img: "m-portfolio-6",
-        title: "Web Application",
-        subTitle: "Behance Shot",
-        alterText: "Web Application",
-        portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+        title: "",
+        subTitle: "",
+        alterText: "",
+        portfolioLink: "#",
       },
       {
         img: "m-portfolio-7",
-        title: "Business Card",
-        subTitle: "Graphicriver Market",
-        alterText: "Business Card",
-        portfolioLink:
-          "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
+        title: "",
+        subTitle: "",
+        alterText: "",
+        portfolioLink: "#",
       },
       {
         img: "m-portfolio-8",
-        title: "Chatting App Design",
-        subTitle: "Codecanyon Market",
-        alterText: "Chatting App Design",
-        portfolioLink:
-          "https://www.behance.net/gallery/128278341/Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+        title: "",
+        subTitle: "",
+        alterText: "",
+        portfolioLink: "#",
       },
       {
         img: "m-portfolio-9",
-        title: "Web Motion",
-        subTitle: "Behance Shot",
-        alterText: "Web Motion",
-        portfolioLink: "https://www.facebook.com/ibthemes",
-      },
-    ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "m-portfolio-6",
-        title: "Web Application",
-        subTitle: "Behance Shot",
-        alterText: "Web Application",
-        portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "m-portfolio-3",
-        title: "Visual Design",
-        subTitle: "Themeforest Marke",
-        alterText: "Business Mockup",
-        portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
-      },
-      {
-        img: "m-portfolio-8",
-        title: "Chatting App Design",
-        subTitle: "Codecanyon Market",
-        alterText: "Chatting App Design",
-        portfolioLink:
-          "https://www.behance.net/gallery/128278341/Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
-      },
-      {
-        img: "m-portfolio-4",
-        title: "Business Card",
-        subTitle: "Graphicriver Market",
-        alterText: "E-Cosmetics",
-        portfolioLink:
-          "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
-      },
-    ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "m-portfolio-2",
-        title: "E-Learning App",
-        subTitle: "Nuna ios App",
-        alterText: "Illustration",
-        portfolioLink:
-          "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
-      },
-
-      {
-        img: "m-portfolio-5",
-        title: "Chatting Application",
-        subTitle: "Codecanyon Market",
-        alterText: "Bottle Illustration",
-        portfolioLink:
-          "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
-      },
-      {
-        img: "m-portfolio-6",
-        title: "Web Application",
-        subTitle: "Behance Shot",
-        alterText: "Web Application",
-        portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
-      },
-    ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "m-portfolio-1",
-        title: "Bottle Illustration",
-        subTitle: "Figma Shoot",
-        alterText: "Bottle Illustration",
-        portfolioLink:
-          "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "m-portfolio-7",
-        title: "Business Card",
-        subTitle: "Graphicriver Market",
-        alterText: "Business Card",
-        portfolioLink:
-          "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "m-portfolio-9",
-        title: "Web Motion",
-        subTitle: "Behance Shot",
-        alterText: "Web Motion",
-        portfolioLink: "https://www.facebook.com/ibthemes",
-      },
-    ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "m-portfolio-2",
-        title: "E-Learning App",
-        subTitle: "Nuna ios App",
-        alterText: "Illustration",
-        portfolioLink:
-          "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "m-portfolio-3",
-        title: "Visual Design",
-        subTitle: "Themeforest Marke",
-        alterText: "Business Mockup",
-        portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
-      },
-
-      {
-        img: "m-portfolio-5",
-        title: "Chatting Application",
-        subTitle: "Codecanyon Market",
-        alterText: "Bottle Illustration",
-        portfolioLink:
-          "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
-      },
-      {
-        img: "m-portfolio-6",
-        title: "Web Application",
-        subTitle: "Behance Shot",
-        alterText: "Web Application",
-        portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+        title: "",
+        subTitle: "",
+        alterText: "",
+        portfolioLink: "#",
       },
     ],
   },
@@ -267,6 +130,7 @@ const Portfolio = () => {
                             />
                           </a>
                           {/* End gallery link */}
+                          {/*
                           <a
                             className="portfolio-icon"
                             href={val.portfolioLink}
@@ -275,7 +139,7 @@ const Portfolio = () => {
                           >
                             <FiLink />
                           </a>
-                          {/* End .portfolio-icon */}
+                           End .portfolio-icon */}
                         </div>
                       </div>
                     ))}
